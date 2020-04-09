@@ -53,9 +53,9 @@ function makeInt(n){
   // returns NaN as approriate
 }
 
-function preserveDecimal(n){
-    n = '2.222'
-  parseFloat(n);
+function preserveDecimal(sting){
+    string = '2.222'
+  parseFloat(string);
 
   // preserves n's decimals and returns the parsed number
 }
