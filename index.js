@@ -39,7 +39,7 @@ function divide(a, b){
 var string = '0xF'
 function makeInt(string){
 
-return  parseInt('n', 10);
+return  parseInt(string, 10);
 
   //parses n as an integer and returns the parsed integer
 }
