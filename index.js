@@ -34,13 +34,11 @@ function divide(a, b){
   return a / b;
 }
 
-var a, b
+//
+//b = Math.floor(Math.random() * 1000);
 
-a = Math.floor(Math.random() * 1000);
-b = Math.floor(Math.random() * 1000);
-
-function makeInt(n){
-  var n = 1;
+function makeInt(string){
+  
   parseInt('n', 10);
 
   //parses n as an integer and returns the parsed integer
