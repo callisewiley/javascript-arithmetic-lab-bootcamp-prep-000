@@ -1,3 +1,7 @@
+//var a = 10;
+//var b = 3;
+//var n = 20;
+
 function add(){
 
 }
@@ -30,14 +34,22 @@ function divide(a, b){
   return a / b;
 }
 
-function makeInt(n){
-  return parseInt(n);
-  //parses n as an integer and returns the parsed integer
-}
+var a, b
+
+a = Math.floor(Math.random() * 1000);
+b = Math.floor(Math.random() * 1000);
 
 function makeInt(n){
-  return parseInt(n, 10);
-  //assumes base 10
+  var n = 1;
+  parseInt('n', 10);
+
+  //parses n as an integer and returns the parsed integer
+}
+console.log(n);
+
+function makeInt(n){
+  return makeInt(parseInt('n', 10));
+  //assumes base 10;
 }
 
 function makeInt(n){
@@ -45,7 +57,9 @@ function makeInt(n){
 }
 
 function preserveDecimal(n){
-  return parseFloat(n);
+    n = '2.222'
+  parseFloat(n);
+
   // preserves n's decimals and returns the parsed number
 }
 
