@@ -36,7 +36,7 @@ function divide(a, b){
 
 //
 //b = Math.floor(Math.random() * 1000);
-
+var string = '0xF'
 function makeInt(string){
 
 return  parseInt('n', 10);
