@@ -43,7 +43,6 @@ function makeInt(string){
 
   //parses n as an integer and returns the parsed integer
 }
-console.log(n);
 
 function makeInt(n){
   return makeInt(parseInt('n', 10));
