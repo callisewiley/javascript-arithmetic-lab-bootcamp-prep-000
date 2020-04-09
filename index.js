@@ -43,9 +43,9 @@ return  parseInt(string, 10);
 
   //parses n as an integer and returns the parsed integer
 }
-
-function makeInt(n){
-  return makeInt(parseInt('n', 10));
+var string = '0xF'
+function makeInt(string){
+  return makeInt(parseInt(string, 10));
   //assumes base 10;
 }
 
