@@ -53,7 +53,7 @@ function makeInt(n){
   // returns NaN as approriate
 }
 
-function preserveDecimal(sting){
+function preserveDecimal(string){
     string = '2.222'
   parseFloat(string);
 
