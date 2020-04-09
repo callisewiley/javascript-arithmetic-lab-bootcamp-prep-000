@@ -38,7 +38,7 @@ function divide(a, b){
 //b = Math.floor(Math.random() * 1000);
 
 function makeInt(string){
-  
+
   parseInt('n', 10);
 
   //parses n as an integer and returns the parsed integer
